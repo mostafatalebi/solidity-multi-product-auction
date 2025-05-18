@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "solidity-json-writer": "^1.2.0",
+    "web3": "^4.16.0"
+  },
+  "name": "src",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-chai-matchers": "^2.0.8",
+    "@nomicfoundation/hardhat-network-helpers": "^1.0.12",
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "@types/mocha": "^10.0.10",
+    "hardhat": "^2.23.0",
+    "mocha": "^11.1.0"
+  },
+  "scripts": {
+    "hardhat-test": "npx hardhat test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}
